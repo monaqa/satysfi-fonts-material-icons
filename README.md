@@ -25,3 +25,17 @@ This package install the following fonts.
 |`fonts-material-icons:MaterialIconsRound-Regular`   |`MaterialIconsRound-Regular.otf`   |
 |`fonts-material-icons:MaterialIconsSharp-Regular`   |`MaterialIconsSharp-Regular.otf`   |
 |`fonts-material-icons:MaterialIconsTwoTone-Regular` |`MaterialIconsTwoTone-Regular.otf` |
+
+## Usage
+
+You can use icons via command-base APIs. Example:
+
+```
+@require: fonts-material-icons/fonts-material-icons
+
+...
+
+'<
+  +p{\MDIconOutlined.add-a-photo;}
+>
+```
