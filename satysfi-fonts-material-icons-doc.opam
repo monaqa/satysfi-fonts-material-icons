@@ -1,0 +1,36 @@
+opam-version: "2.0"
+name: "satysfi-fonts-material-icons"
+version: "1.0.0"
+synopsis: "Docs for SATySFi Font Package for Google Material Icons"
+description: """
+Docs for SATySFi Font Package for Google Material Icons
+"""
+maintainer: "Mogami Shinichi <cmonaqa@gmail.com>"
+authors: "Mogami Shinichi <cmonaqa@gmail.com>"
+license: "Apache-2.0"
+homepage: "https://github.com/monaqa/satysfi-fonts-material-icons"
+dev-repo: "git+https://github.com/monaqa/satysfi-fonts-material-icons.git"
+bug-reports: "https://github.com/monaqa/satysfi-fonts-material-icons/issues"
+depends: [
+  "satysfi" { >= "0.0.6" & < "0.0.8" }
+  "satyrographos" { >= "0.0.2.6" & < "0.0.3" }
+
+  # You may want to include the corresponding library
+  "satysfi-fonts-material-icons" {= "%{version}%"}
+
+  # Other libraries
+  "satysfi-dist"
+  "satysfi-easytable" {>= "1.1.2" & < "2.0.0"}
+]
+build: [
+  ["satyrographos" "opam" "build"
+   "--name" "fonts-material-icons-doc"
+   "--prefix" "%{prefix}%"
+   "--script" "%{build}%/Satyristes"]
+]
+install: [
+  ["satyrographos" "opam" "install"
+   "--name" "fonts-material-icons-doc"
+   "--prefix" "%{prefix}%"
+   "--script" "%{build}%/Satyristes"]
+]

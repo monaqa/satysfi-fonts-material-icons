@@ -1,0 +1,6 @@
+{
+  "fonts-material-icons:MaterialIconsOutlined-Regular":<"Single":{"src":"dist/fonts/fonts-material-icons/MaterialIconsOutlined-Regular.otf"}>,
+  "fonts-material-icons:MaterialIconsRound-Regular":<"Single":{"src":"dist/fonts/fonts-material-icons/MaterialIconsRound-Regular.otf"}>,
+  "fonts-material-icons:MaterialIconsSharp-Regular":<"Single":{"src":"dist/fonts/fonts-material-icons/MaterialIconsSharp-Regular.otf"}>,
+  "fonts-material-icons:MaterialIconsTwoTone-Regular":<"Single":{"src":"dist/fonts/fonts-material-icons/MaterialIconsTwoTone-Regular.otf"}>
+}
