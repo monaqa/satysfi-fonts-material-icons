@@ -42,5 +42,6 @@
   (dependencies
     ((fonts-material-icons ()) ; the main library
      (dist ()) ; Standard library
+     (base ())
      (easytable ())
     )))
