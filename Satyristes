@@ -10,10 +10,10 @@
   ;; Files
   (sources
     ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
-     (font "MaterialIconsOutlined-Regular.otf" "material-icons/material-design-icons-4.0.0/font/MaterialIconsOutlined-Regular.otf")
-     (font "MaterialIconsRound-Regular.otf" "material-icons/material-design-icons-4.0.0/font/MaterialIconsRound-Regular.otf")
-     (font "MaterialIconsSharp-Regular.otf" "material-icons/material-design-icons-4.0.0/font/MaterialIconsSharp-Regular.otf")
-     (font "MaterialIconsTwoTone-Regular.otf" "material-icons/material-design-icons-4.0.0/font/MaterialIconsTwoTone-Regular.otf")
+     (font "MaterialIconsOutlined-Regular.otf" "MaterialIconsOutlined-Regular.otf")
+     (font "MaterialIconsRound-Regular.otf" "MaterialIconsRound-Regular.otf")
+     (font "MaterialIconsSharp-Regular.otf" "MaterialIconsSharp-Regular.otf")
+     (font "MaterialIconsTwoTone-Regular.otf" "MaterialIconsTwoTone-Regular.otf")
      (packageDir "src")
      ))
   ;; OPAM package file

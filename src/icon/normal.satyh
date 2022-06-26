@@ -1,4 +1,4 @@
-module MDIconTwoTone : sig
+module MDIcon : sig
   val \icon-10k : [] inline-cmd
   val \icon-10mp : [] inline-cmd
   val \icon-11mp : [] inline-cmd
@@ -79,6 +79,7 @@ module MDIconTwoTone : sig
   val \add-alert : [] inline-cmd
   val \add-box : [] inline-cmd
   val \add-business : [] inline-cmd
+  val \add-call : [] inline-cmd
   val \add-card : [] inline-cmd
   val \add-chart : [] inline-cmd
   val \add-circle : [] inline-cmd
@@ -192,6 +193,7 @@ module MDIconTwoTone : sig
   val \assist-walker : [] inline-cmd
   val \assistant : [] inline-cmd
   val \assistant-direction : [] inline-cmd
+  val \assistant-navigation : [] inline-cmd
   val \assistant-photo : [] inline-cmd
   val \assured-workload : [] inline-cmd
   val \atm : [] inline-cmd
@@ -233,24 +235,12 @@ module MDIconTwoTone : sig
   val \bathtub : [] inline-cmd
   val \battery-0-bar : [] inline-cmd
   val \battery-1-bar : [] inline-cmd
-  val \battery-20 : [] inline-cmd
   val \battery-2-bar : [] inline-cmd
-  val \battery-30 : [] inline-cmd
   val \battery-3-bar : [] inline-cmd
   val \battery-4-bar : [] inline-cmd
-  val \battery-50 : [] inline-cmd
   val \battery-5-bar : [] inline-cmd
-  val \battery-60 : [] inline-cmd
   val \battery-6-bar : [] inline-cmd
-  val \battery-80 : [] inline-cmd
-  val \battery-90 : [] inline-cmd
   val \battery-alert : [] inline-cmd
-  val \battery-charging-20 : [] inline-cmd
-  val \battery-charging-30 : [] inline-cmd
-  val \battery-charging-50 : [] inline-cmd
-  val \battery-charging-60 : [] inline-cmd
-  val \battery-charging-80 : [] inline-cmd
-  val \battery-charging-90 : [] inline-cmd
   val \battery-charging-full : [] inline-cmd
   val \battery-full : [] inline-cmd
   val \battery-saver : [] inline-cmd
@@ -272,6 +262,7 @@ module MDIconTwoTone : sig
   val \blinds : [] inline-cmd
   val \blinds-closed : [] inline-cmd
   val \block : [] inline-cmd
+  val \block-flipped : [] inline-cmd
   val \bloodtype : [] inline-cmd
   val \bluetooth : [] inline-cmd
   val \bluetooth-audio : [] inline-cmd
@@ -432,6 +423,7 @@ module MDIconTwoTone : sig
   val \cloud-queue : [] inline-cmd
   val \cloud-sync : [] inline-cmd
   val \cloud-upload : [] inline-cmd
+  val \cloudy-snowing : [] inline-cmd
   val \co2 : [] inline-cmd
   val \co-present : [] inline-cmd
   val \code : [] inline-cmd
@@ -477,7 +469,6 @@ module MDIconTwoTone : sig
   val \control-point : [] inline-cmd
   val \control-point-duplicate : [] inline-cmd
   val \cookie : [] inline-cmd
-  val \copy : [] inline-cmd
   val \copy-all : [] inline-cmd
   val \copyright : [] inline-cmd
   val \coronavirus : [] inline-cmd
@@ -516,7 +507,6 @@ module MDIconTwoTone : sig
   val \currency-yuan : [] inline-cmd
   val \curtains : [] inline-cmd
   val \curtains-closed : [] inline-cmd
-  val \cut : [] inline-cmd
   val \cyclone : [] inline-cmd
   val \dangerous : [] inline-cmd
   val \dark-mode : [] inline-cmd
@@ -636,6 +626,7 @@ module MDIconTwoTone : sig
   val \draw : [] inline-cmd
   val \drive-eta : [] inline-cmd
   val \drive-file-move : [] inline-cmd
+  val \drive-file-move-outline : [] inline-cmd
   val \drive-file-move-rtl : [] inline-cmd
   val \drive-file-rename-outline : [] inline-cmd
   val \drive-folder-upload : [] inline-cmd
@@ -732,7 +723,6 @@ module MDIconTwoTone : sig
   val \face-6 : [] inline-cmd
   val \face-retouching-natural : [] inline-cmd
   val \face-retouching-off : [] inline-cmd
-  val \face-unlock : [] inline-cmd
   val \facebook : [] inline-cmd
   val \fact-check : [] inline-cmd
   val \factory : [] inline-cmd
@@ -782,6 +772,7 @@ module MDIconTwoTone : sig
   val \filter-frames : [] inline-cmd
   val \filter-hdr : [] inline-cmd
   val \filter-list : [] inline-cmd
+  val \filter-list-alt : [] inline-cmd
   val \filter-list-off : [] inline-cmd
   val \filter-none : [] inline-cmd
   val \filter-tilt-shift : [] inline-cmd
@@ -790,6 +781,7 @@ module MDIconTwoTone : sig
   val \find-replace : [] inline-cmd
   val \fingerprint : [] inline-cmd
   val \fire-extinguisher : [] inline-cmd
+  val \fire-hydrant : [] inline-cmd
   val \fire-hydrant-alt : [] inline-cmd
   val \fire-truck : [] inline-cmd
   val \fireplace : [] inline-cmd
@@ -821,6 +813,7 @@ module MDIconTwoTone : sig
   val \flutter-dash : [] inline-cmd
   val \fmd-bad : [] inline-cmd
   val \fmd-good : [] inline-cmd
+  val \foggy : [] inline-cmd
   val \folder : [] inline-cmd
   val \folder-copy : [] inline-cmd
   val \folder-delete : [] inline-cmd
@@ -890,6 +883,7 @@ module MDIconTwoTone : sig
   val \gif-box : [] inline-cmd
   val \girl : [] inline-cmd
   val \gite : [] inline-cmd
+  val \goat : [] inline-cmd
   val \golf-course : [] inline-cmd
   val \gpp-bad : [] inline-cmd
   val \gpp-good : [] inline-cmd
@@ -967,6 +961,7 @@ module MDIconTwoTone : sig
   val \hls-off : [] inline-cmd
   val \holiday-village : [] inline-cmd
   val \home : [] inline-cmd
+  val \home-filled : [] inline-cmd
   val \home-max : [] inline-cmd
   val \home-mini : [] inline-cmd
   val \home-repair-service : [] inline-cmd
@@ -1048,6 +1043,7 @@ module MDIconTwoTone : sig
   val \keyboard-arrow-up : [] inline-cmd
   val \keyboard-backspace : [] inline-cmd
   val \keyboard-capslock : [] inline-cmd
+  val \keyboard-command : [] inline-cmd
   val \keyboard-command-key : [] inline-cmd
   val \keyboard-control : [] inline-cmd
   val \keyboard-control-key : [] inline-cmd
@@ -1056,6 +1052,7 @@ module MDIconTwoTone : sig
   val \keyboard-double-arrow-right : [] inline-cmd
   val \keyboard-double-arrow-up : [] inline-cmd
   val \keyboard-hide : [] inline-cmd
+  val \keyboard-option : [] inline-cmd
   val \keyboard-option-key : [] inline-cmd
   val \keyboard-return : [] inline-cmd
   val \keyboard-tab : [] inline-cmd
@@ -1148,6 +1145,7 @@ module MDIconTwoTone : sig
   val \location-history : [] inline-cmd
   val \location-off : [] inline-cmd
   val \location-on : [] inline-cmd
+  val \location-pin : [] inline-cmd
   val \location-searching : [] inline-cmd
   val \lock : [] inline-cmd
   val \lock-clock : [] inline-cmd
@@ -1326,6 +1324,7 @@ module MDIconTwoTone : sig
   val \no-food : [] inline-cmd
   val \no-luggage : [] inline-cmd
   val \no-meals : [] inline-cmd
+  val \no-meals-ouline : [] inline-cmd
   val \no-meeting-room : [] inline-cmd
   val \no-photography : [] inline-cmd
   val \no-sim : [] inline-cmd
@@ -1374,6 +1373,7 @@ module MDIconTwoTone : sig
   val \outbound : [] inline-cmd
   val \outbox : [] inline-cmd
   val \outdoor-grill : [] inline-cmd
+  val \outgoing-mail : [] inline-cmd
   val \outlet : [] inline-cmd
   val \outlined-flag : [] inline-cmd
   val \output : [] inline-cmd
@@ -1399,7 +1399,6 @@ module MDIconTwoTone : sig
   val \park : [] inline-cmd
   val \party-mode : [] inline-cmd
   val \password : [] inline-cmd
-  val \paste : [] inline-cmd
   val \pattern : [] inline-cmd
   val \pause : [] inline-cmd
   val \pause-circle : [] inline-cmd
@@ -1484,6 +1483,7 @@ module MDIconTwoTone : sig
   val \picture-in-picture-alt : [] inline-cmd
   val \pie-chart : [] inline-cmd
   val \pie-chart-outline : [] inline-cmd
+  val \pie-chart-outlined : [] inline-cmd
   val \pin : [] inline-cmd
   val \pin-drop : [] inline-cmd
   val \pin-end : [] inline-cmd
@@ -1761,48 +1761,24 @@ module MDIconTwoTone : sig
   val \sick : [] inline-cmd
   val \sign-language : [] inline-cmd
   val \signal-cellular-0-bar : [] inline-cmd
-  val \signal-cellular-1-bar : [] inline-cmd
-  val \signal-cellular-2-bar : [] inline-cmd
-  val \signal-cellular-3-bar : [] inline-cmd
   val \signal-cellular-4-bar : [] inline-cmd
   val \signal-cellular-alt : [] inline-cmd
   val \signal-cellular-alt-1-bar : [] inline-cmd
   val \signal-cellular-alt-2-bar : [] inline-cmd
   val \signal-cellular-connected-no-internet-0-bar : [] inline-cmd
-  val \signal-cellular-connected-no-internet-1-bar : [] inline-cmd
-  val \signal-cellular-connected-no-internet-2-bar : [] inline-cmd
-  val \signal-cellular-connected-no-internet-3-bar : [] inline-cmd
   val \signal-cellular-connected-no-internet-4-bar : [] inline-cmd
   val \signal-cellular-no-sim : [] inline-cmd
   val \signal-cellular-nodata : [] inline-cmd
   val \signal-cellular-null : [] inline-cmd
   val \signal-cellular-off : [] inline-cmd
   val \signal-wifi-0-bar : [] inline-cmd
-  val \signal-wifi-1-bar : [] inline-cmd
-  val \signal-wifi-1-bar-lock : [] inline-cmd
-  val \signal-wifi-2-bar : [] inline-cmd
-  val \signal-wifi-2-bar-lock : [] inline-cmd
-  val \signal-wifi-3-bar : [] inline-cmd
-  val \signal-wifi-3-bar-lock : [] inline-cmd
   val \signal-wifi-4-bar : [] inline-cmd
   val \signal-wifi-4-bar-lock : [] inline-cmd
   val \signal-wifi-bad : [] inline-cmd
-  val \signal-wifi-connected-no-internet-0 : [] inline-cmd
-  val \signal-wifi-connected-no-internet-1 : [] inline-cmd
-  val \signal-wifi-connected-no-internet-2 : [] inline-cmd
-  val \signal-wifi-connected-no-internet-3 : [] inline-cmd
   val \signal-wifi-connected-no-internet-4 : [] inline-cmd
   val \signal-wifi-off : [] inline-cmd
-  val \signal-wifi-statusbar-1-bar : [] inline-cmd
-  val \signal-wifi-statusbar-2-bar : [] inline-cmd
-  val \signal-wifi-statusbar-3-bar : [] inline-cmd
   val \signal-wifi-statusbar-4-bar : [] inline-cmd
-  val \signal-wifi-statusbar-connected-no-internet : [] inline-cmd
-  val \signal-wifi-statusbar-connected-no-internet-1 : [] inline-cmd
-  val \signal-wifi-statusbar-connected-no-internet-2 : [] inline-cmd
-  val \signal-wifi-statusbar-connected-no-internet-3 : [] inline-cmd
   val \signal-wifi-statusbar-connected-no-internet-4 : [] inline-cmd
-  val \signal-wifi-statusbar-not-connected : [] inline-cmd
   val \signal-wifi-statusbar-null : [] inline-cmd
   val \signpost : [] inline-cmd
   val \sim-card : [] inline-cmd
@@ -1829,6 +1805,7 @@ module MDIconTwoTone : sig
   val \snippet-folder : [] inline-cmd
   val \snooze : [] inline-cmd
   val \snowboarding : [] inline-cmd
+  val \snowing : [] inline-cmd
   val \snowmobile : [] inline-cmd
   val \snowshoeing : [] inline-cmd
   val \soap : [] inline-cmd
@@ -1923,6 +1900,8 @@ module MDIconTwoTone : sig
   val \subtitles-off : [] inline-cmd
   val \subway : [] inline-cmd
   val \summarize : [] inline-cmd
+  val \sunny : [] inline-cmd
+  val \sunny-snowing : [] inline-cmd
   val \superscript : [] inline-cmd
   val \supervised-user-circle : [] inline-cmd
   val \supervisor-account : [] inline-cmd
@@ -2147,6 +2126,7 @@ module MDIconTwoTone : sig
   val \voicemail : [] inline-cmd
   val \volcano : [] inline-cmd
   val \volume-down : [] inline-cmd
+  val \volume-down-alt : [] inline-cmd
   val \volume-mute : [] inline-cmd
   val \volume-off : [] inline-cmd
   val \volume-up : [] inline-cmd
@@ -2179,6 +2159,7 @@ module MDIconTwoTone : sig
   val \wb-iridescent : [] inline-cmd
   val \wb-shade : [] inline-cmd
   val \wb-sunny : [] inline-cmd
+  val \wb-twighlight : [] inline-cmd
   val \wb-twilight : [] inline-cmd
   val \wc : [] inline-cmd
   val \web : [] inline-cmd
@@ -2201,8 +2182,6 @@ module MDIconTwoTone : sig
   val \wifi-1-bar : [] inline-cmd
   val \wifi-2-bar : [] inline-cmd
   val \wifi-calling : [] inline-cmd
-  val \wifi-calling-1 : [] inline-cmd
-  val \wifi-calling-2 : [] inline-cmd
   val \wifi-calling-3 : [] inline-cmd
   val \wifi-channel : [] inline-cmd
   val \wifi-find : [] inline-cmd
@@ -2227,6 +2206,8 @@ module MDIconTwoTone : sig
   val \work-outline : [] inline-cmd
   val \workspace-premium : [] inline-cmd
   val \workspaces : [] inline-cmd
+  val \workspaces-filled : [] inline-cmd
+  val \workspaces-outline : [] inline-cmd
   val \wrap-text : [] inline-cmd
   val \wrong-location : [] inline-cmd
   val \wysiwyg : [] inline-cmd
@@ -2239,7 +2220,7 @@ module MDIconTwoTone : sig
 end = struct
 
   let embed-icon ctx codepoint =
-    let ctx = ctx |> set-font OtherScript (`fonts-material-icons:MaterialIconsTwoTone-Regular`, 0.95, -0.125) in
+    let ctx = ctx |> set-font OtherScript (`fonts-material-icons:MaterialIcons-Regular`, 0.95, -0.125) in
     string-unexplode [codepoint] |> embed-string |> read-inline ctx
 
   let-inline ctx \icon-10k = embed-icon ctx 0xE951
@@ -2322,6 +2303,7 @@ end = struct
   let-inline ctx \add-alert = embed-icon ctx 0xE003
   let-inline ctx \add-box = embed-icon ctx 0xE146
   let-inline ctx \add-business = embed-icon ctx 0xE729
+  let-inline ctx \add-call = embed-icon ctx 0xE0E8
   let-inline ctx \add-card = embed-icon ctx 0xEB86
   let-inline ctx \add-chart = embed-icon ctx 0xE97B
   let-inline ctx \add-circle = embed-icon ctx 0xE147
@@ -2435,6 +2417,7 @@ end = struct
   let-inline ctx \assist-walker = embed-icon ctx 0xF8D5
   let-inline ctx \assistant = embed-icon ctx 0xE39F
   let-inline ctx \assistant-direction = embed-icon ctx 0xE988
+  let-inline ctx \assistant-navigation = embed-icon ctx 0xE989
   let-inline ctx \assistant-photo = embed-icon ctx 0xE3A0
   let-inline ctx \assured-workload = embed-icon ctx 0xEB6F
   let-inline ctx \atm = embed-icon ctx 0xE573
@@ -2476,24 +2459,12 @@ end = struct
   let-inline ctx \bathtub = embed-icon ctx 0xEA41
   let-inline ctx \battery-0-bar = embed-icon ctx 0xEBDC
   let-inline ctx \battery-1-bar = embed-icon ctx 0xEBD9
-  let-inline ctx \battery-20 = embed-icon ctx 0xF09C
   let-inline ctx \battery-2-bar = embed-icon ctx 0xEBE0
-  let-inline ctx \battery-30 = embed-icon ctx 0xF09D
   let-inline ctx \battery-3-bar = embed-icon ctx 0xEBDD
   let-inline ctx \battery-4-bar = embed-icon ctx 0xEBE2
-  let-inline ctx \battery-50 = embed-icon ctx 0xF09E
   let-inline ctx \battery-5-bar = embed-icon ctx 0xEBD4
-  let-inline ctx \battery-60 = embed-icon ctx 0xF09F
   let-inline ctx \battery-6-bar = embed-icon ctx 0xEBD2
-  let-inline ctx \battery-80 = embed-icon ctx 0xF0A0
-  let-inline ctx \battery-90 = embed-icon ctx 0xF0A1
   let-inline ctx \battery-alert = embed-icon ctx 0xE19C
-  let-inline ctx \battery-charging-20 = embed-icon ctx 0xF0A2
-  let-inline ctx \battery-charging-30 = embed-icon ctx 0xF0A3
-  let-inline ctx \battery-charging-50 = embed-icon ctx 0xF0A4
-  let-inline ctx \battery-charging-60 = embed-icon ctx 0xF0A5
-  let-inline ctx \battery-charging-80 = embed-icon ctx 0xF0A6
-  let-inline ctx \battery-charging-90 = embed-icon ctx 0xF0A7
   let-inline ctx \battery-charging-full = embed-icon ctx 0xE1A3
   let-inline ctx \battery-full = embed-icon ctx 0xE1A4
   let-inline ctx \battery-saver = embed-icon ctx 0xEFDE
@@ -2515,6 +2486,7 @@ end = struct
   let-inline ctx \blinds = embed-icon ctx 0xE286
   let-inline ctx \blinds-closed = embed-icon ctx 0xEC1F
   let-inline ctx \block = embed-icon ctx 0xE14B
+  let-inline ctx \block-flipped = embed-icon ctx 0xEF46
   let-inline ctx \bloodtype = embed-icon ctx 0xEFE4
   let-inline ctx \bluetooth = embed-icon ctx 0xE1A7
   let-inline ctx \bluetooth-audio = embed-icon ctx 0xE60F
@@ -2675,6 +2647,7 @@ end = struct
   let-inline ctx \cloud-queue = embed-icon ctx 0xE2C2
   let-inline ctx \cloud-sync = embed-icon ctx 0xEB5A
   let-inline ctx \cloud-upload = embed-icon ctx 0xE2C3
+  let-inline ctx \cloudy-snowing = embed-icon ctx 0xE810
   let-inline ctx \co2 = embed-icon ctx 0xE7B0
   let-inline ctx \co-present = embed-icon ctx 0xEAF0
   let-inline ctx \code = embed-icon ctx 0xE86F
@@ -2709,9 +2682,9 @@ end = struct
   let-inline ctx \contact-support = embed-icon ctx 0xE94C
   let-inline ctx \contactless = embed-icon ctx 0xEA71
   let-inline ctx \contacts = embed-icon ctx 0xE0BA
-  let-inline ctx \content-copy = embed-icon ctx 0xF08A
-  let-inline ctx \content-cut = embed-icon ctx 0xF08B
-  let-inline ctx \content-paste = embed-icon ctx 0xF098
+  let-inline ctx \content-copy = embed-icon ctx 0xE14D
+  let-inline ctx \content-cut = embed-icon ctx 0xE14E
+  let-inline ctx \content-paste = embed-icon ctx 0xE14F
   let-inline ctx \content-paste-go = embed-icon ctx 0xEA8E
   let-inline ctx \content-paste-off = embed-icon ctx 0xE4F8
   let-inline ctx \content-paste-search = embed-icon ctx 0xEA9B
@@ -2720,7 +2693,6 @@ end = struct
   let-inline ctx \control-point = embed-icon ctx 0xE3BA
   let-inline ctx \control-point-duplicate = embed-icon ctx 0xE3BB
   let-inline ctx \cookie = embed-icon ctx 0xEAAC
-  let-inline ctx \copy = embed-icon ctx 0xF08A
   let-inline ctx \copy-all = embed-icon ctx 0xE2EC
   let-inline ctx \copyright = embed-icon ctx 0xE90C
   let-inline ctx \coronavirus = embed-icon ctx 0xF221
@@ -2759,7 +2731,6 @@ end = struct
   let-inline ctx \currency-yuan = embed-icon ctx 0xEAF9
   let-inline ctx \curtains = embed-icon ctx 0xEC1E
   let-inline ctx \curtains-closed = embed-icon ctx 0xEC1D
-  let-inline ctx \cut = embed-icon ctx 0xF08B
   let-inline ctx \cyclone = embed-icon ctx 0xEBD5
   let-inline ctx \dangerous = embed-icon ctx 0xE99A
   let-inline ctx \dark-mode = embed-icon ctx 0xE51C
@@ -2879,6 +2850,7 @@ end = struct
   let-inline ctx \draw = embed-icon ctx 0xE746
   let-inline ctx \drive-eta = embed-icon ctx 0xE613
   let-inline ctx \drive-file-move = embed-icon ctx 0xE675
+  let-inline ctx \drive-file-move-outline = embed-icon ctx 0xE9A1
   let-inline ctx \drive-file-move-rtl = embed-icon ctx 0xE76D
   let-inline ctx \drive-file-rename-outline = embed-icon ctx 0xE9A2
   let-inline ctx \drive-folder-upload = embed-icon ctx 0xE9A3
@@ -2975,7 +2947,6 @@ end = struct
   let-inline ctx \face-6 = embed-icon ctx 0xF8DE
   let-inline ctx \face-retouching-natural = embed-icon ctx 0xEF4E
   let-inline ctx \face-retouching-off = embed-icon ctx 0xF007
-  let-inline ctx \face-unlock = embed-icon ctx 0xF008
   let-inline ctx \facebook = embed-icon ctx 0xF234
   let-inline ctx \fact-check = embed-icon ctx 0xF0C5
   let-inline ctx \factory = embed-icon ctx 0xEBBC
@@ -3025,6 +2996,7 @@ end = struct
   let-inline ctx \filter-frames = embed-icon ctx 0xE3DE
   let-inline ctx \filter-hdr = embed-icon ctx 0xE3DF
   let-inline ctx \filter-list = embed-icon ctx 0xE152
+  let-inline ctx \filter-list-alt = embed-icon ctx 0xE94E
   let-inline ctx \filter-list-off = embed-icon ctx 0xEB57
   let-inline ctx \filter-none = embed-icon ctx 0xE3E0
   let-inline ctx \filter-tilt-shift = embed-icon ctx 0xE3E2
@@ -3033,6 +3005,7 @@ end = struct
   let-inline ctx \find-replace = embed-icon ctx 0xE881
   let-inline ctx \fingerprint = embed-icon ctx 0xE90D
   let-inline ctx \fire-extinguisher = embed-icon ctx 0xF1D8
+  let-inline ctx \fire-hydrant = embed-icon ctx 0xF1A3
   let-inline ctx \fire-hydrant-alt = embed-icon ctx 0xF8F1
   let-inline ctx \fire-truck = embed-icon ctx 0xF8F2
   let-inline ctx \fireplace = embed-icon ctx 0xEA43
@@ -3064,6 +3037,7 @@ end = struct
   let-inline ctx \flutter-dash = embed-icon ctx 0xE00B
   let-inline ctx \fmd-bad = embed-icon ctx 0xF00E
   let-inline ctx \fmd-good = embed-icon ctx 0xF00F
+  let-inline ctx \foggy = embed-icon ctx 0xE818
   let-inline ctx \folder = embed-icon ctx 0xE2C7
   let-inline ctx \folder-copy = embed-icon ctx 0xEBBD
   let-inline ctx \folder-delete = embed-icon ctx 0xEB34
@@ -3103,8 +3077,8 @@ end = struct
   let-inline ctx \format-strikethrough = embed-icon ctx 0xE246
   let-inline ctx \format-textdirection-l-to-r = embed-icon ctx 0xE247
   let-inline ctx \format-textdirection-r-to-l = embed-icon ctx 0xE248
-  let-inline ctx \format-underline = embed-icon ctx 0xE765
-  let-inline ctx \format-underlined = embed-icon ctx 0xE765
+  let-inline ctx \format-underline = embed-icon ctx 0xE249
+  let-inline ctx \format-underlined = embed-icon ctx 0xE249
   let-inline ctx \fort = embed-icon ctx 0xEAAD
   let-inline ctx \forum = embed-icon ctx 0xE0BF
   let-inline ctx \forward = embed-icon ctx 0xE154
@@ -3133,6 +3107,7 @@ end = struct
   let-inline ctx \gif-box = embed-icon ctx 0xE7A3
   let-inline ctx \girl = embed-icon ctx 0xEB68
   let-inline ctx \gite = embed-icon ctx 0xE58B
+  let-inline ctx \goat = embed-icon ctx 0x10FFFD
   let-inline ctx \golf-course = embed-icon ctx 0xEB45
   let-inline ctx \gpp-bad = embed-icon ctx 0xF012
   let-inline ctx \gpp-good = embed-icon ctx 0xF013
@@ -3210,6 +3185,7 @@ end = struct
   let-inline ctx \hls-off = embed-icon ctx 0xEB8C
   let-inline ctx \holiday-village = embed-icon ctx 0xE58A
   let-inline ctx \home = embed-icon ctx 0xE88A
+  let-inline ctx \home-filled = embed-icon ctx 0xE9B2
   let-inline ctx \home-max = embed-icon ctx 0xF024
   let-inline ctx \home-mini = embed-icon ctx 0xF025
   let-inline ctx \home-repair-service = embed-icon ctx 0xF100
@@ -3291,14 +3267,16 @@ end = struct
   let-inline ctx \keyboard-arrow-up = embed-icon ctx 0xE316
   let-inline ctx \keyboard-backspace = embed-icon ctx 0xE317
   let-inline ctx \keyboard-capslock = embed-icon ctx 0xE318
+  let-inline ctx \keyboard-command = embed-icon ctx 0xEAE0
   let-inline ctx \keyboard-command-key = embed-icon ctx 0xEAE7
-  let-inline ctx \keyboard-control = embed-icon ctx 0xEAE1
+  let-inline ctx \keyboard-control = embed-icon ctx 0xE5D3
   let-inline ctx \keyboard-control-key = embed-icon ctx 0xEAE6
   let-inline ctx \keyboard-double-arrow-down = embed-icon ctx 0xEAD0
   let-inline ctx \keyboard-double-arrow-left = embed-icon ctx 0xEAC3
   let-inline ctx \keyboard-double-arrow-right = embed-icon ctx 0xEAC9
   let-inline ctx \keyboard-double-arrow-up = embed-icon ctx 0xEACF
   let-inline ctx \keyboard-hide = embed-icon ctx 0xE31A
+  let-inline ctx \keyboard-option = embed-icon ctx 0xEADF
   let-inline ctx \keyboard-option-key = embed-icon ctx 0xEAE8
   let-inline ctx \keyboard-return = embed-icon ctx 0xE31B
   let-inline ctx \keyboard-tab = embed-icon ctx 0xE31C
@@ -3326,7 +3304,7 @@ end = struct
   let-inline ctx \leaderboard = embed-icon ctx 0xF20C
   let-inline ctx \leak-add = embed-icon ctx 0xE3F8
   let-inline ctx \leak-remove = embed-icon ctx 0xE3F9
-  let-inline ctx \leave-bags-at-home = embed-icon ctx 0xF23B
+  let-inline ctx \leave-bags-at-home = embed-icon ctx 0xF21B
   let-inline ctx \legend-toggle = embed-icon ctx 0xF11B
   let-inline ctx \lens = embed-icon ctx 0xE3FA
   let-inline ctx \lens-blur = embed-icon ctx 0xF029
@@ -3391,6 +3369,7 @@ end = struct
   let-inline ctx \location-history = embed-icon ctx 0xE55A
   let-inline ctx \location-off = embed-icon ctx 0xE0C7
   let-inline ctx \location-on = embed-icon ctx 0xE0C8
+  let-inline ctx \location-pin = embed-icon ctx 0xF1DB
   let-inline ctx \location-searching = embed-icon ctx 0xE1B7
   let-inline ctx \lock = embed-icon ctx 0xE897
   let-inline ctx \lock-clock = embed-icon ctx 0xEF57
@@ -3497,7 +3476,7 @@ end = struct
   let-inline ctx \mood-bad = embed-icon ctx 0xE7F3
   let-inline ctx \moped = embed-icon ctx 0xEB28
   let-inline ctx \more = embed-icon ctx 0xE619
-  let-inline ctx \more-horiz = embed-icon ctx 0xEAE1
+  let-inline ctx \more-horiz = embed-icon ctx 0xE5D3
   let-inline ctx \more-time = embed-icon ctx 0xEA5D
   let-inline ctx \more-vert = embed-icon ctx 0xE5D4
   let-inline ctx \mosque = embed-icon ctx 0xEAB2
@@ -3569,6 +3548,7 @@ end = struct
   let-inline ctx \no-food = embed-icon ctx 0xF1A7
   let-inline ctx \no-luggage = embed-icon ctx 0xF23B
   let-inline ctx \no-meals = embed-icon ctx 0xF1D6
+  let-inline ctx \no-meals-ouline = embed-icon ctx 0xF229
   let-inline ctx \no-meeting-room = embed-icon ctx 0xEB4E
   let-inline ctx \no-photography = embed-icon ctx 0xF1A8
   let-inline ctx \no-sim = embed-icon ctx 0xE0CC
@@ -3596,8 +3576,8 @@ end = struct
   let-inline ctx \notifications-off = embed-icon ctx 0xE7F6
   let-inline ctx \notifications-on = embed-icon ctx 0xE7F7
   let-inline ctx \notifications-paused = embed-icon ctx 0xE7F8
-  let-inline ctx \now-wallpaper = embed-icon ctx 0xE75F
-  let-inline ctx \now-widgets = embed-icon ctx 0xE75E
+  let-inline ctx \now-wallpaper = embed-icon ctx 0xE1BC
+  let-inline ctx \now-widgets = embed-icon ctx 0xE1BD
   let-inline ctx \numbers = embed-icon ctx 0xEAC7
   let-inline ctx \offline-bolt = embed-icon ctx 0xE932
   let-inline ctx \offline-pin = embed-icon ctx 0xE90A
@@ -3617,6 +3597,7 @@ end = struct
   let-inline ctx \outbound = embed-icon ctx 0xE1CA
   let-inline ctx \outbox = embed-icon ctx 0xEF5F
   let-inline ctx \outdoor-grill = embed-icon ctx 0xEA47
+  let-inline ctx \outgoing-mail = embed-icon ctx 0xF0D2
   let-inline ctx \outlet = embed-icon ctx 0xF1D4
   let-inline ctx \outlined-flag = embed-icon ctx 0xE16E
   let-inline ctx \output = embed-icon ctx 0xEBBE
@@ -3642,7 +3623,6 @@ end = struct
   let-inline ctx \park = embed-icon ctx 0xEA63
   let-inline ctx \party-mode = embed-icon ctx 0xE7FA
   let-inline ctx \password = embed-icon ctx 0xF042
-  let-inline ctx \paste = embed-icon ctx 0xF098
   let-inline ctx \pattern = embed-icon ctx 0xF043
   let-inline ctx \pause = embed-icon ctx 0xE034
   let-inline ctx \pause-circle = embed-icon ctx 0xE1A2
@@ -3727,6 +3707,7 @@ end = struct
   let-inline ctx \picture-in-picture-alt = embed-icon ctx 0xE911
   let-inline ctx \pie-chart = embed-icon ctx 0xE6C4
   let-inline ctx \pie-chart-outline = embed-icon ctx 0xF044
+  let-inline ctx \pie-chart-outlined = embed-icon ctx 0xE6C5
   let-inline ctx \pin = embed-icon ctx 0xF045
   let-inline ctx \pin-drop = embed-icon ctx 0xE55E
   let-inline ctx \pin-end = embed-icon ctx 0xE767
@@ -4004,48 +3985,24 @@ end = struct
   let-inline ctx \sick = embed-icon ctx 0xF220
   let-inline ctx \sign-language = embed-icon ctx 0xEBE5
   let-inline ctx \signal-cellular-0-bar = embed-icon ctx 0xF0A8
-  let-inline ctx \signal-cellular-1-bar = embed-icon ctx 0xF0A9
-  let-inline ctx \signal-cellular-2-bar = embed-icon ctx 0xF0AA
-  let-inline ctx \signal-cellular-3-bar = embed-icon ctx 0xF0AB
   let-inline ctx \signal-cellular-4-bar = embed-icon ctx 0xE1C8
   let-inline ctx \signal-cellular-alt = embed-icon ctx 0xE202
   let-inline ctx \signal-cellular-alt-1-bar = embed-icon ctx 0xEBDF
   let-inline ctx \signal-cellular-alt-2-bar = embed-icon ctx 0xEBE3
   let-inline ctx \signal-cellular-connected-no-internet-0-bar = embed-icon ctx 0xF0AC
-  let-inline ctx \signal-cellular-connected-no-internet-1-bar = embed-icon ctx 0xF0AD
-  let-inline ctx \signal-cellular-connected-no-internet-2-bar = embed-icon ctx 0xF0AE
-  let-inline ctx \signal-cellular-connected-no-internet-3-bar = embed-icon ctx 0xF0AF
   let-inline ctx \signal-cellular-connected-no-internet-4-bar = embed-icon ctx 0xE1CD
   let-inline ctx \signal-cellular-no-sim = embed-icon ctx 0xE1CE
   let-inline ctx \signal-cellular-nodata = embed-icon ctx 0xF062
   let-inline ctx \signal-cellular-null = embed-icon ctx 0xE1CF
   let-inline ctx \signal-cellular-off = embed-icon ctx 0xE1D0
   let-inline ctx \signal-wifi-0-bar = embed-icon ctx 0xF0B0
-  let-inline ctx \signal-wifi-1-bar = embed-icon ctx 0xF0B1
-  let-inline ctx \signal-wifi-1-bar-lock = embed-icon ctx 0xF0B2
-  let-inline ctx \signal-wifi-2-bar = embed-icon ctx 0xF0B3
-  let-inline ctx \signal-wifi-2-bar-lock = embed-icon ctx 0xF0B4
-  let-inline ctx \signal-wifi-3-bar = embed-icon ctx 0xF0B5
-  let-inline ctx \signal-wifi-3-bar-lock = embed-icon ctx 0xF0B6
   let-inline ctx \signal-wifi-4-bar = embed-icon ctx 0xE1D8
   let-inline ctx \signal-wifi-4-bar-lock = embed-icon ctx 0xE1D9
   let-inline ctx \signal-wifi-bad = embed-icon ctx 0xF063
-  let-inline ctx \signal-wifi-connected-no-internet-0 = embed-icon ctx 0xF0F2
-  let-inline ctx \signal-wifi-connected-no-internet-1 = embed-icon ctx 0xF0EE
-  let-inline ctx \signal-wifi-connected-no-internet-2 = embed-icon ctx 0xF0F1
-  let-inline ctx \signal-wifi-connected-no-internet-3 = embed-icon ctx 0xF0ED
   let-inline ctx \signal-wifi-connected-no-internet-4 = embed-icon ctx 0xF064
   let-inline ctx \signal-wifi-off = embed-icon ctx 0xE1DA
-  let-inline ctx \signal-wifi-statusbar-1-bar = embed-icon ctx 0xF0E6
-  let-inline ctx \signal-wifi-statusbar-2-bar = embed-icon ctx 0xF0F0
-  let-inline ctx \signal-wifi-statusbar-3-bar = embed-icon ctx 0xF0EA
   let-inline ctx \signal-wifi-statusbar-4-bar = embed-icon ctx 0xF065
-  let-inline ctx \signal-wifi-statusbar-connected-no-internet = embed-icon ctx 0xF0F8
-  let-inline ctx \signal-wifi-statusbar-connected-no-internet-1 = embed-icon ctx 0xF0E9
-  let-inline ctx \signal-wifi-statusbar-connected-no-internet-2 = embed-icon ctx 0xF0F7
-  let-inline ctx \signal-wifi-statusbar-connected-no-internet-3 = embed-icon ctx 0xF0E8
   let-inline ctx \signal-wifi-statusbar-connected-no-internet-4 = embed-icon ctx 0xF066
-  let-inline ctx \signal-wifi-statusbar-not-connected = embed-icon ctx 0xF0EF
   let-inline ctx \signal-wifi-statusbar-null = embed-icon ctx 0xF067
   let-inline ctx \signpost = embed-icon ctx 0xEB91
   let-inline ctx \sim-card = embed-icon ctx 0xE32B
@@ -4072,6 +4029,7 @@ end = struct
   let-inline ctx \snippet-folder = embed-icon ctx 0xF1C7
   let-inline ctx \snooze = embed-icon ctx 0xE046
   let-inline ctx \snowboarding = embed-icon ctx 0xE513
+  let-inline ctx \snowing = embed-icon ctx 0xE80F
   let-inline ctx \snowmobile = embed-icon ctx 0xE503
   let-inline ctx \snowshoeing = embed-icon ctx 0xE514
   let-inline ctx \soap = embed-icon ctx 0xF1B2
@@ -4166,6 +4124,8 @@ end = struct
   let-inline ctx \subtitles-off = embed-icon ctx 0xEF72
   let-inline ctx \subway = embed-icon ctx 0xE56F
   let-inline ctx \summarize = embed-icon ctx 0xF071
+  let-inline ctx \sunny = embed-icon ctx 0xE81A
+  let-inline ctx \sunny-snowing = embed-icon ctx 0xE819
   let-inline ctx \superscript = embed-icon ctx 0xF112
   let-inline ctx \supervised-user-circle = embed-icon ctx 0xE939
   let-inline ctx \supervisor-account = embed-icon ctx 0xE8D3
@@ -4390,6 +4350,7 @@ end = struct
   let-inline ctx \voicemail = embed-icon ctx 0xE0D9
   let-inline ctx \volcano = embed-icon ctx 0xEBDA
   let-inline ctx \volume-down = embed-icon ctx 0xE04D
+  let-inline ctx \volume-down-alt = embed-icon ctx 0xE79C
   let-inline ctx \volume-mute = embed-icon ctx 0xE04E
   let-inline ctx \volume-off = embed-icon ctx 0xE04F
   let-inline ctx \volume-up = embed-icon ctx 0xE050
@@ -4402,7 +4363,7 @@ end = struct
   let-inline ctx \wallet-giftcard = embed-icon ctx 0xE8F6
   let-inline ctx \wallet-membership = embed-icon ctx 0xE8F7
   let-inline ctx \wallet-travel = embed-icon ctx 0xE8F8
-  let-inline ctx \wallpaper = embed-icon ctx 0xE75F
+  let-inline ctx \wallpaper = embed-icon ctx 0xE1BC
   let-inline ctx \warehouse = embed-icon ctx 0xEBB8
   let-inline ctx \warning = embed-icon ctx 0xE002
   let-inline ctx \warning-amber = embed-icon ctx 0xF083
@@ -4422,6 +4383,7 @@ end = struct
   let-inline ctx \wb-iridescent = embed-icon ctx 0xE436
   let-inline ctx \wb-shade = embed-icon ctx 0xEA01
   let-inline ctx \wb-sunny = embed-icon ctx 0xE430
+  let-inline ctx \wb-twighlight = embed-icon ctx 0xEA02
   let-inline ctx \wb-twilight = embed-icon ctx 0xE1C6
   let-inline ctx \wc = embed-icon ctx 0xE63D
   let-inline ctx \web = embed-icon ctx 0xE051
@@ -4436,7 +4398,7 @@ end = struct
   let-inline ctx \whatshot = embed-icon ctx 0xE80E
   let-inline ctx \wheelchair-pickup = embed-icon ctx 0xF1AB
   let-inline ctx \where-to-vote = embed-icon ctx 0xE177
-  let-inline ctx \widgets = embed-icon ctx 0xE75E
+  let-inline ctx \widgets = embed-icon ctx 0xE1BD
   let-inline ctx \width-full = embed-icon ctx 0xF8F5
   let-inline ctx \width-normal = embed-icon ctx 0xF8F6
   let-inline ctx \width-wide = embed-icon ctx 0xF8F7
@@ -4444,8 +4406,6 @@ end = struct
   let-inline ctx \wifi-1-bar = embed-icon ctx 0xE4CA
   let-inline ctx \wifi-2-bar = embed-icon ctx 0xE4D9
   let-inline ctx \wifi-calling = embed-icon ctx 0xEF77
-  let-inline ctx \wifi-calling-1 = embed-icon ctx 0xF0E7
-  let-inline ctx \wifi-calling-2 = embed-icon ctx 0xF0F6
   let-inline ctx \wifi-calling-3 = embed-icon ctx 0xF085
   let-inline ctx \wifi-channel = embed-icon ctx 0xEB6A
   let-inline ctx \wifi-find = embed-icon ctx 0xEB31
@@ -4454,7 +4414,7 @@ end = struct
   let-inline ctx \wifi-password = embed-icon ctx 0xEB6B
   let-inline ctx \wifi-protected-setup = embed-icon ctx 0xF0FC
   let-inline ctx \wifi-tethering = embed-icon ctx 0xE1E2
-  let-inline ctx \wifi-tethering-error = embed-icon ctx 0xF086
+  let-inline ctx \wifi-tethering-error = embed-icon ctx 0xEAD9
   let-inline ctx \wifi-tethering-error-rounded = embed-icon ctx 0xF086
   let-inline ctx \wifi-tethering-off = embed-icon ctx 0xF087
   let-inline ctx \wind-power = embed-icon ctx 0xEC0C
@@ -4470,6 +4430,8 @@ end = struct
   let-inline ctx \work-outline = embed-icon ctx 0xE943
   let-inline ctx \workspace-premium = embed-icon ctx 0xE7AF
   let-inline ctx \workspaces = embed-icon ctx 0xE1A0
+  let-inline ctx \workspaces-filled = embed-icon ctx 0xEA0D
+  let-inline ctx \workspaces-outline = embed-icon ctx 0xEA0F
   let-inline ctx \wrap-text = embed-icon ctx 0xE25B
   let-inline ctx \wrong-location = embed-icon ctx 0xEF78
   let-inline ctx \wysiwyg = embed-icon ctx 0xF1C3

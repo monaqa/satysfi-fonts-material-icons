@@ -11,20 +11,25 @@ license: "Apache-2.0"
 homepage: "https://github.com/monaqa/satysfi-fonts-material-icons"
 dev-repo: "git+https://github.com/monaqa/satysfi-fonts-material-icons.git"
 bug-reports: "https://github.com/monaqa/satysfi-fonts-material-icons/issues"
-extra-source "4.0.0.zip" {
-  archive: "https://github.com/google/material-design-icons/archive/refs/tags/4.0.0.zip"
-  checksum: [
-    "sha256=3decc1c1f9b2352dafc769df58d1044293818a758bac150cc817fa377933f9a9"
-    "sha512=1a6e198c981843c9cc4116e4e528352699f17504ec38b1116a392ebaf27b6a3580f3ed08af59fc97141f0a0cb5cc7bf1cb37c8a58933776a507aaa7d023d3db8"
-  ]
+
+extra-source "MaterialIconsOutlined-Regular.otf" {
+  src: "https://github.com/google/material-design-icons/raw/9a68a7b2aa5131c31afd822fa796322754802bfb/font/MaterialIconsOutlined-Regular.otf"
 }
+extra-source "MaterialIconsRound-Regular.otf" {
+  src: "https://github.com/google/material-design-icons/raw/9a68a7b2aa5131c31afd822fa796322754802bfb/font/MaterialIconsRound-Regular.otf"
+}
+extra-source "MaterialIconsSharp-Regular.otf" {
+  src: "https://github.com/google/material-design-icons/raw/9a68a7b2aa5131c31afd822fa796322754802bfb/font/MaterialIconsSharp-Regular.otf"
+}
+extra-source "MaterialIconsTwoTone-Regular.otf" {
+  src: "https://github.com/google/material-design-icons/raw/9a68a7b2aa5131c31afd822fa796322754802bfb/font/MaterialIconsTwoTone-Regular.otf"
+}
+
 depends: [
   "satysfi" { >= "0.0.6" & < "0.0.8" }
   "satyrographos" { >= "0.0.2.6" & < "0.0.3" }
 ]
-build: [
-  ["unzip" "-o" "4.0.0.zip" "*.otf" "-d" "material-icons"]
-]
+build: []
 install: [
   ["satyrographos" "opam" "install"
    "--name" "fonts-material-icons"

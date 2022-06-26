@@ -2201,7 +2201,7 @@ module MDIconSharp : sig
 end = struct
 
   let embed-icon ctx codepoint =
-    let ctx = ctx |> set-font OtherScript (`fonts-material-icons:MaterialIconsSharp-Regular`, 1.0, 0.0) in
+    let ctx = ctx |> set-font OtherScript (`fonts-material-icons:MaterialIconsSharp-Regular`, 0.95, -0.125) in
     string-unexplode [codepoint] |> embed-string |> read-inline ctx
 
   let-inline ctx \icon-10k = embed-icon ctx 0xE951

@@ -1,30 +1,160 @@
-@require: standalone
+@require: stdjareport
 @require: pervasives
 @require: easytable/easytable
+
+@require: base/list-ext
+
+@import: data/outlined
+@import: data/round
+@import: data/sharp
+@import: data/twotone
 @import: ../src/fonts-material-icons
 
 open EasyTableAlias
 
-let lorem = {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
-let lemon = {あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。}
-
-let-inline ctx \lemon font-name =
-  let ctx = ctx
-    |> set-font HanIdeographic (font-name, 1., 0.0)
-    |> set-font Kana (font-name, 1., 0.)
+let chunk n lst default =
+  let-rec aux result rst =
+    if List.null rst then
+      (result, [])
+    else if List.length rst <= n then
+      let chunk = List.concat [ rst; default |> List.repeat (n - List.length rst) ] in
+      (chunk :: result, [])
+    else
+      let (chunk, rst) = rst |> List.split-at (n - 1) in
+      aux (chunk :: result) rst
   in
-  read-inline ctx lemon
-  
-let-block ctx +p it =
-  (read-inline ctx it ++ inline-fil)
-    |> line-break true true ctx
+  let (result, _) = aux [] lst in
+  result |> List.reverse
+
+let-block ctx +clear-page = clear-page
+
+let range-twice n =
+  let-rec aux n =
+    if n <= 0 then
+      []
+    else
+      (2 * n) :: aux (n - 1)
+  in
+  aux n |> List.reverse
+
+let-block +multipage-tables width n-row n-col data =
+  let easytable-block data =
+    let rules = [
+      [t; b];
+      range-twice (n-col - 1) |> List.map (fun n -> v n)
+    ] |> List.concat
+    in
+    let cols = [c; l] |> List.repeat n-col |> List.concat in
+    '<
+      +easytable?:(rules)(cols)(data);
+    >
+  in
+  chunk (n-col * 2 * n-row) data {}
+    |> List.map easytable-block
+    |> List.fold-left (fun bt1 bt2 -> '<#bt1;#bt2;>) '<>
+
+let-block ctx +small bt =
+  let ctx = ctx |> set-font-size 7pt in
+  read-block ctx bt
 
 in
 
-standalone '<
+document(|
+  title = {\SATySFi; Fonts Material Icon Package};
+  author = {monaqa};
+|) '<
 
   +p{
-    マテリアルなアイコンを \SATySFi; で \MDIconRound.icon-10mp;
+    マテリアルなアイコンを \SATySFi; で \MDIconOutlined.edit;記述するための \MDIconTwoTone.folder; パッケージ。
+    フォントデータおよび、アイコンを使用するためのコマンドを提供する。
+    以下のヘッダを \MDIconSharp.add-circle;追加することで使えるようになる。
   }
+  +code(```
+    @require: fonts-material-icons/fonts-material-icons
+  ```);
+
+  +chapter{Outlined}<
+    +p{
+      たとえば \MDIconOutlined.add-a-photo;`add-a-photo` という名前のアイコンを使いたいときは、
+        インラインテキスト中で以下のコマンドを使う。
+    }
+    +code(```
+      \MDIconOutlined.add-a-photo;
+    ```);
+    +p{
+      以下のようなアイコンが使用可能（最初の一部のみ抜粋）。
+    }
+
+    +small<
+      +multipage-tables(120pt)(25)(3)(
+        outlined
+          % フルで見たければ以下の1行をコメントアウトすること（評価に時間がかかるので注意）
+            |> List.take 299
+      );
+    >
+  >
+
+  +chapter{Round}<
+    +p{
+      たとえば \MDIconRound.add-a-photo;`add-a-photo` という名前のアイコンを使いたいときは、
+        インラインテキスト中で以下のコマンドを使う。
+    }
+    +code(```
+      \MDIconRound.add-a-photo;
+    ```);
+    +p{
+      以下のようなアイコンが使用可能（最初の一部のみ抜粋）。
+    }
+
+    +small<
+      +multipage-tables(120pt)(25)(3)(
+        round
+          % フルで見たければ以下の1行をコメントアウトすること（評価に時間がかかるので注意）
+            |> List.take 299
+      );
+    >
+  >
+
+  +chapter{Sharp}<
+    +p{
+      たとえば \MDIconSharp.add-a-photo;`add-a-photo` という名前のアイコンを使いたいときは、
+        インラインテキスト中で以下のコマンドを使う。
+    }
+    +code(```
+      \MDIconSharp.add-a-photo;
+    ```);
+    +p{
+      以下のようなアイコンが使用可能（最初の一部のみ抜粋）。
+    }
+
+    +small<
+      +multipage-tables(120pt)(25)(3)(
+        sharp
+          % フルで見たければ以下の1行をコメントアウトすること（評価に時間がかかるので注意）
+            |> List.take 299
+      );
+    >
+  >
+
+  +chapter{TwoTone}<
+    +p{
+      たとえば \MDIconTwoTone.add-a-photo;`add-a-photo` という名前のアイコンを使いたいときは、
+        インラインテキスト中で以下のコマンドを使う。
+    }
+    +code(```
+      \MDIconTwoTone.add-a-photo;
+    ```);
+    +p{
+      以下のようなアイコンが使用可能（最初の一部のみ抜粋）。
+    }
+
+    +small<
+      +multipage-tables(120pt)(25)(3)(
+        twotone
+          % フルで見たければ以下の1行をコメントアウトすること（評価に時間がかかるので注意）
+            |> List.take 299
+      );
+    >
+  >
 
 >
