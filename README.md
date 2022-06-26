@@ -8,9 +8,9 @@ To use this font, please install this package followed by `satyrographos install
 ### Install SATySFi & Satyrographos
 If you don't have them, please install them with this [instruction](https://github.com/na4zagin3/satyrographos).
 
-### Install `satysfi-fonts-ibm-plex-sans-jp`
+### Install `satysfi-fonts-material-icons`
 ```sh
-$ opam install satysfi-fonts-ibm-plex-sans-jp
+$ opam install satysfi-fonts-material-icons
 $ satyrographos install
 ```
 
@@ -19,13 +19,9 @@ if you get error `bash: satyrographos: command not found`, please read this [ins
 ## Installed Fonts
 This package install the following fonts.
 
-|SATySFi Font Name                                |Font Filename                 |
-|-------------------------------------------------|------------------------------|
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-Thin`      |`IBMPlexSansJP-Thin.otf`      |
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-ExtraLight`|`IBMPlexSansJP-ExtraLight.otf`|
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-Light`     |`IBMPlexSansJP-Light.otf`     |
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-Regular`   |`IBMPlexSansJP-Regular.otf`   |
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-Text`      |`IBMPlexSansJP-Text.otf`      |
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-Medium`    |`IBMPlexSansJP-Medium.otf`    |
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-SemiBold`  |`IBMPlexSansJP-SemiBold.otf`  |
-|`fonts-ibm-plex-sans-jp:IBMPlexSansJP-Bold`      |`IBMPlexSansJP-Bold.otf`      |
+|SATySFi Font Name                                   |Font Filename                      |
+|----------------------------------------------------|-----------------------------------|
+|`fonts-material-icons:MaterialIconsOutlined-Regular`|`MaterialIconsOutlined-Regular.otf`|
+|`fonts-material-icons:MaterialIconsRound-Regular`   |`MaterialIconsRound-Regular.otf`   |
+|`fonts-material-icons:MaterialIconsSharp-Regular`   |`MaterialIconsSharp-Regular.otf`   |
+|`fonts-material-icons:MaterialIconsTwoTone-Regular` |`MaterialIconsTwoTone-Regular.otf` |
