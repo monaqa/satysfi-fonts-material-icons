@@ -6,7 +6,7 @@
   ;; Library name
   (name "fonts-material-icons")
   ;; Library version
-  (version "1.0.0")
+  (version "1.0.1")
   ;; Files
   (sources
     ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
@@ -26,7 +26,7 @@
   ;; Library doc name
   (name "fonts-material-icons-doc")
   ;; Library version
-  (version "1.0.0")
+  (version "1.0.1")
   ;; Working directory to build docs
   (workingDirectory "doc")
   ;; Build commands

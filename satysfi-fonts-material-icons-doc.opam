@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "satysfi-fonts-material-icons-doc"
-version: "1.0.0"
+version: "1.0.1"
 synopsis: "Docs for SATySFi Font Package for Google Material Icons"
 description: """
 Docs for SATySFi Font Package for Google Material Icons

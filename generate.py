@@ -44,7 +44,7 @@ def construct_satysfi_module(
     lines.extend(
         [
             "  let embed-icon ctx codepoint =",
-            f"    let ctx = ctx |> set-font OtherScript (`fonts-material-icons:{font_name}`, 0.95, -0.125) in",
+            f"    let ctx = ctx |> set-font OtherScript (`fonts-material-icons:{font_name}`, 0.95, 0.0 -. 0.125) in",
             "    string-unexplode [codepoint] |> embed-string |> read-inline ctx",
         ]
     )
